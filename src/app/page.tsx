@@ -5,6 +5,8 @@ import Schools from "@/components/Schools";
 import Footer from "@/components/Footer";
 import StatementImageBG from "@/components/Statement-ImageBG";
 import VideoWrapper from "@/components/VideoWrapper";
+import ThreePoints from "@/components/ThreePoints";
+import Quote from "@/components/Quote";
 
 export default function Home() {
   return (
@@ -15,8 +17,8 @@ export default function Home() {
       <Schools />
       <StatementImageBG />
       <VideoWrapper />
-      <div>Mission</div>
-      <div>Quote</div>
+      <ThreePoints />
+      <Quote />
       <div>Calendar</div>
       <div>Contact</div>
       <Footer />

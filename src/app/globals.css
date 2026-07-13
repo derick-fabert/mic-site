@@ -1,13 +1,26 @@
 @import "tailwindcss";
 
-@theme {
+:root {
   --color-navy: #062647;
   --color-white: #ffffff;
   --color-charcoal: #222222;
+  --color-mic-blue: #008ed2;
   --color-background: var(--color-navy);
   --color-foreground: #ededed;
   --font-sans: var(--font-raleway);
   --font-mono: var(--font-geist-mono);
+}
+
+.bg-navy {
+  background-color: var(--color-navy);
+}
+
+.text-navy {
+  color: var(--color-navy);
+}
+
+.text-mic-blue {
+  color: var(--color-mic-blue);
 }
 
 body {
