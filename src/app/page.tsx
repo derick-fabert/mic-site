@@ -7,6 +7,7 @@ import StatementImageBG from "@/components/Statement-ImageBG";
 import VideoWrapper from "@/components/VideoWrapper";
 import ThreePoints from "@/components/ThreePoints";
 import Quote from "@/components/Quote";
+import Calendar from "@/components/Calendar";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
       <VideoWrapper />
       <ThreePoints />
       <Quote />
-      <div>Calendar</div>
+      <Calendar />
       <div>Contact</div>
       <Footer />
     </div>
