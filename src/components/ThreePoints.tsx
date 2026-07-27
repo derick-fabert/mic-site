@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function ThreePoints() {
   return (
     <div className="relative flex bg-white py-8 lg:px-16">
-      <div className="relative flex w-full lg:mx-auto lg:my-10 lg:max-w-[1100px] lg:justify-end">
+      <div className="relative flex w-full lg:mx-auto lg:my-10 lg:max-w-275 lg:justify-end">
         <div className="absolute -top-8 -bottom-8 left-0 hidden w-7/12 lg:block">
           <Image src="/threepoints-nc.png" alt="NC" fill sizes="50vw" className="object-contain object-left" />
         </div>
-        <div className="z-10 w-full bg-[radial-gradient(circle,#008ed2_0%,#062647_78%)] p-8 lg:w-7/12 lg:p-20 text-center *:py-8">
+        <div className="z-10 w-full bg-[radial-gradient(circle,#008ed2_0%,#062647_78%)] p-8 lg:w-7/12 lg:p-20 text-center text-lg md:text-xl *:py-8">
           <div className="border-b-2 border-[#008ed2]">
             The competitive nature of the MIC conference is credited with building strong programs where students practice, prepare and compete at some of the highest levels in the state of Indiana. 
           </div>

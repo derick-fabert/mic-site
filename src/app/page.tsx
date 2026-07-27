@@ -8,6 +8,7 @@ import VideoWrapper from "@/components/VideoWrapper";
 import ThreePoints from "@/components/ThreePoints";
 import Quote from "@/components/Quote";
 import Calendar from "@/components/Calendar";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
       <ThreePoints />
       <Quote />
       <Calendar />
-      <div>Contact</div>
+      <Contact />
       <Footer />
     </div>
   );

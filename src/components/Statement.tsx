@@ -1,7 +1,7 @@
 export default function Statement() {
   return (
     <div className="bg-navy border-y-4 border-[#008ED2]">
-      <div className="flex flex-col gap-4 md:gap-12 p-4 md:p-8 md:px-16 md:flex-row md:items-center max-w-[1000px] mx-auto">
+      <div className="flex flex-col gap-4 md:gap-12 p-4 md:p-8 md:px-16 md:flex-row md:items-center max-w-250 mx-auto">
         <div className="text-white text-center space-y-2 md:space-y-4 md:text-left text-2xl md:text-4xl lg:text-6xl font-bold">
           <p>
             Built on Excellence.
@@ -10,7 +10,7 @@ export default function Statement() {
             Driven by Community.
           </p>
         </div>
-        <div className="space-y-4 text-white text-sm">
+        <div className="space-y-4 text-white text-sm md:text-base">
           <p>
             For three decades, the Metropolitan Interscholastic Conference (MIC) has set the standard for excellence across Indiana high school athletics, academics, and the arts. Home to more than 28,000 students across eight premier public high schools, the MIC is recognized as the winningest and most competitive conference in the state, built on a legacy of achievement, innovation, and community pride.
           </p>

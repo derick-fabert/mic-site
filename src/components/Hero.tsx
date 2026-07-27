@@ -6,13 +6,13 @@ export default function Hero() {
       <div className="absolute inset-x-0 top-0 z-10 overflow-x-clip">
         <div className="absolute left-1/2 -top-8 md:-top-40 lg:-top-36 h-40 w-[110%] md:w-[120%] lg:w-[110%] -translate-x-1/2 -translate-y-1/2 rounded-[80%] bg-white md:h-160 lg:h-200">
           <div className="absolute inset-x-0 bottom-2 text-center text-navy uppercase md:mb-4 lg:mb-12">
-            <div className="italic text-sm md:text-base lg:text-2xl md:mb-2">
+            <div className="italic md:text-xl lg:text-4xl md:mb-2">
               Celebrating 30 Years of 
             </div>
-            <div className="text-lg md:text-3xl lg:text-5xl font-extrabold md:mb-2">
+            <div className="text-3xl md:text-4xl lg:text-5xl font-extrabold md:mb-2">
               Excellence & Opportunity
             </div>
-            <div className="text-sm md:text-base lg:text-2xl">
+            <div className="text-xl md:text-3xl lg:text-3xl">
               In Central Indiana
             </div>
           </div>
