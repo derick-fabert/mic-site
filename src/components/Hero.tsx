@@ -9,7 +9,7 @@ export default function Hero() {
             <div className="italic md:text-xl lg:text-4xl md:mb-2">
               Celebrating 30 Years of 
             </div>
-            <div className="text-3xl md:text-4xl lg:text-5xl font-extrabold md:mb-2">
+            <div className="text-2xl md:text-4xl lg:text-5xl font-extrabold md:mb-2">
               Excellence & Opportunity
             </div>
             <div className="text-xl md:text-3xl lg:text-3xl">
