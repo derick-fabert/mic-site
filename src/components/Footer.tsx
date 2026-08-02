@@ -16,7 +16,7 @@ export default function Header() {
         </div>
         <div className="text-white text-right md:text-lg lg:text-xl">
           <div className="font-bold">METROPOLITAN INTERSCHOLASTIC CONFERENCE  |  1996 - 2026</div>
-          <div>Copyright 2026  | [MIC email to be created]</div>
+          <div>Copyright 2026  | themicconference@gmail.com</div>
         </div>
       </div>
     </footer>
