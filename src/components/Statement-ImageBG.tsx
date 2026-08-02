@@ -1,6 +1,6 @@
 export default function StatementImageBG() {
   return (
-    <div className="bg-navy md:mb-16 lg:mb-0">
+    <div className="bg-navy md:mb-20 lg:mb-0">
       <div
         className="relative mx-auto max-w-350 bg-[url('/bg-warrenbasketball.png')] bg-cover bg-right lg:bg-center min-h-240 md:min-h-160 lg:min-h-160"
       >
