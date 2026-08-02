@@ -2,7 +2,7 @@ export default function StatementImageBG() {
   return (
     <div className="bg-navy md:mb-16 lg:mb-0">
       <div
-        className="relative mx-auto max-w-350 bg-[url('/bg-warrenbasketball.png')] bg-cover bg-right lg:bg-center h-240 md:h-160 lg:h-160"
+        className="relative mx-auto max-w-350 bg-[url('/bg-warrenbasketball.png')] bg-cover bg-right lg:bg-center min-h-240 md:min-h-160 lg:min-h-160"
       >
         <div className="pt-16 pl-8">
           <div className="bg-white w-full md:w-3/5 lg:w-9/16  py-8 px-12">

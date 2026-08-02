@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <footer className="relative z-20 w-full border-b border-white/30 bg-navy text-white">
       <div className="mx-auto flex w-full max-w-360 items-center justify-between px-3 lg:px-6">
-        <div className="flex h-16 w-16 md:h-32 md:w-32 min-h-15 min-w-15 items-center justify-center">
+        <div className="flex h-24 w-24 md:h-32 md:w-32 min-h-24 min-w-24 items-center justify-center">
           <Image
             src="/mic-logo.svg"
             alt="MIC logo"

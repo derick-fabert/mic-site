@@ -8,7 +8,7 @@ const events = [
 
 export default function Calendar() {
   return (
-    <div className="bg-white w-full pb-16 mx-auto text-black">
+    <div id="calendar" className="bg-white w-full pb-16 mx-auto text-black">
       <div className="flex flex-col items-center justify-center max-w-300 mx-auto px-4 md:px-8">
         <Image src="/calendar.svg" alt="Calendar" width={50} height={50} />
         <div className="text-4xl font-bold py-8">Upcoming Events</div>
