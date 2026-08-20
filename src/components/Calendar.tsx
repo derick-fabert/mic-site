@@ -1,9 +1,20 @@
 import Image from "next/image";
 
 const events = [
-  { date: "8.24", title: "Center Grove Home Football Game", description: "CGCSC is celebrating the MIC's 30th anniversary with a tailgate cookout before the first football home game at 5:30 PM in parking lot B" },
-  { date: "9.02", title: "Pike Stem Tournament", description: "The Senior STEM team at Pike High Shool is celebrating 30 years of excellence with cupcakes and coding at 11:30 AM.  All tournament attendees are welcome."},
-  { date: "9.30", title: "Lawrence Central Sound Celebration", description: "The LC sound has produced a special 30th Anniversary Show Choir performance at the Bears Auditorium at 7:00 PM.  Tickets on sale now at lchs.com"}
+  { 
+    date: "8.21", 
+    title: "MIC Campaign Kickoff Tailgate at Team Stiles", 
+    description: "Tailgate outside of Ray Skillman Stadium (Center Grove vs. Warren Central football game)"
+  },
+  { 
+    date: "8.24", 
+    title: " MIC Student Leadership Workshop in Carmel", 
+    description: "The MIC Student Leadership Workshop is a day-long event for students to learn about leadership and teamwork."
+  },
+  { 
+    date: "9.11", 
+    title: "MIC 30th Anniversary podcast drops on Get IN. Podcast network", 
+    description: "The MIC 30th Anniversary podcast drops on Get IN. Podcast network"}
 ]
 
 export default function Calendar() {

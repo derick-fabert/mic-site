@@ -23,6 +23,10 @@
   color: var(--color-mic-blue);
 }
 
+.bg-mic-blue {
+  background-color: var(--color-mic-blue);
+}
+
 body {
   background: var(--color-background);
   color: var(--color-foreground);
